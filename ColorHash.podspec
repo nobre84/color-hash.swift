@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.source_files          = 'ColorHash/*.swift'
+  s.swift_versions = ['5.0']
 end
